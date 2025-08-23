@@ -16,9 +16,14 @@ namespace SpectreTimer
             {
                 TimerConvert.DisplayTime(TimerConvert.ConvetInputToTime(time, rest));
             }
+            else
+            {
+                // alt way to start aplication if no args
+                SelectionMenu.Menu();
 
-            // alt way to start aplication if no args
-            SelectionMenu.Menu();
+            }
+
+
 
 
         }
