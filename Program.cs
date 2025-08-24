@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Text.RegularExpressions;
-using Spectre.Console;
 
 namespace SpectreTimer
 {
@@ -22,9 +21,6 @@ namespace SpectreTimer
                 SelectionMenu.Menu();
 
             }
-
-
-
 
         }
     }
